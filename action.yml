@@ -13,7 +13,7 @@ inputs:
   payload:
     description: 'Request payload'
     required: false
-    default: ${{ github }}
+    default: '{}'
 runs:
   using: 'docker'
   image: 'Dockerfile'
